@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-red: #990000;
+  --color-slate: #E2E8F0;
+  --color-ink-black: #0F172A;
+  --color-soft-white: #F8FAFC;
+  --color-silver-muted: #94A3B8;
+  
+  --font-family-calligraphy: 'Ma Shan Zheng', sans-serif;
+  --font-family-heading: 'Noto Serif SC', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}
+
+/* Custom Font Size Utilities */
+@utility text-16 { font-size: 16px; }
+@utility text-20 { font-size: 20px; }
+@utility text-24 { font-size: 24px; }
+@utility text-30 { font-size: 30px; }
+@utility text-33 { font-size: 33px; }
+@utility text-35 { font-size: 35px; }
+@utility text-40 { font-size: 40px; }
+@utility text-45 { font-size: 45px; }
+@utility text-56 { font-size: 56px; }
+@utility text-60 { font-size: 60px; }
+@utility text-78 { font-size: 78px; }
+@utility text-110 { font-size: 110px; }
+@utility text-144 { font-size: 144px; }
+
+/* Animation Utility */
+@utility animate-fade-in { animation: fadeIn 2s ease-in-out; }
+
+/* Background Color Utilities */
+@layer utilities {
+  .bg-red { background-color: #990000; }
+  .bg-slate { background-color: #E2E8F0; }
+  .bg-ink-black { background-color: #0F172A; }
+  .bg-soft-white { background-color: #F8FAFC; }
+  .bg-silver-muted { background-color: #94A3B8; }
+
+  .font-calligraphy {
+    font-family: var(--font-family-calligraphy);
+  }
+  .font-heading {
+    font-family: var(--font-family-heading);
+  }
+  .font-body {
+    font-family: var(--font-family-body);
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Custom colors for runtime access */
+  --color-red: #990000;
+  --color-slate: #E2E8F0;
+  --color-ink-black: #0F172A;
+  --color-soft-white: #F8FAFC;
+  --color-silver-muted: #94A3B8;
+  
+  --font-family-calligraphy: 'Ma Shan Zheng', sans-serif;
+  --font-family-heading: 'Noto Serif SC', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+}
+
+p, a{
+  font-family: var(--font-family-body);
+}
+
+.hero-mesh {
+  background-color: var(--color-red);
+  background-image: 
+      radial-gradient(at 0% 0%, hsla(222, 47%, 11%, 0.3) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(222, 47%, 5%, 0.2) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(0, 0%, 100%, 0.1) 0, transparent 50%);
+}
+
+.section-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.62 10c.38 0 .76 0 1.13.01V40h-2.25V10.01c.37-.01.75-.01 1.12-.01zM48.62 10c.38 0 .76 0 1.13.01V40h-2.25V10.01c.37-.01.75-.01 1.12-.01z' fill='%230F172A' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
