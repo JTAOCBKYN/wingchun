@@ -1,7 +1,7 @@
 const Hero = () => {
   
   return (
-    <section className="relative h-[600px] flex items-center justify-start overflow-hidden hero-mesh px-6 md:px-24" data-purpose="hero-section">
+    <section className="relative h-[700px] lg:h-[600px] flex items-center justify-start overflow-hidden hero-mesh px-6 md:px-24 pt-[75px] lg:pt-0" data-purpose="hero-section">
         <div className="container mx-auto h-full flex justify-start items-center">
           <div className="wrapper flex flex-col gap-[40px]">
             <h1 className="text-[50px] lg:text-[90px] leading-none text-white font-bold">Syllabus</h1>

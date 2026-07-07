@@ -20,24 +20,24 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="logo flex flex-row gap-x-[20px] items-center w-[40%] xl:max-w-[27%]">
-            <Link href="/" className="w-[113px]">
+            <Link href="/" >
               <Image 
                 src="/images/logo.png"
                 width="113"
                 height="136"
-                alt="European Traditional Wing Chun Kung Fu Association Logo"
-                className="max-w-full w-[50px] lg:w-full"
+                alt="Smart Wing Chun Logo"
+                className="max-w-full w-[50px] lg:w-[60px]"
               />
             </Link>
-            <div className="font-heading text-white text-[20px] font-bold hidden lg:block">European Traditional Wing&nbsp;Chun Kung Fu Association</div>
+            <div className="font-heading text-white text-[26px] font-bold hidden lg:block">Smart Wing Chun</div>
           </div>
           <div className="navigation max-w-[73%]">
             <nav className="hidden lg:flex items-center gap-10">
               <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/classes">Classes</a>
-              <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="">History</a>
+              <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/history">History</a>
               <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/syllabus">Syllabus</a>
-              <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="">Articles</a>
-              <a className="bg-ink-black text-white px-[10px] lg:px-6 py-2.5 rounded-sm uppercase font-bold text-sm tracking-wide hover:bg-slate hover:text-ink-black hover:cursor-pointer " href="">Contact</a>
+              <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/gallery">Gallery</a>
+              <a className="bg-ink-black text-white px-[10px] lg:px-6 py-2.5 rounded-sm uppercase font-bold text-sm tracking-wide hover:bg-slate hover:text-ink-black hover:cursor-pointer " href="/contact">Contact</a>
             </nav>
             <div
                 className="hamburger relative z-50 w-[40px] h-[32px] block lg:hidden"
@@ -62,10 +62,10 @@ const Header = () => {
       <div className={mobileMenuClass}>
         <nav className="flex flex-col gap-[20px]">
           <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/classes">Classes</a>
-            <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="">History</a>
+            <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/history">History</a>
             <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/syllabus">Syllabus</a>
-            <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="">Articles</a>
-            <a className="bg-ink-black text-center text-white px-[10px] lg:px-6 py-2.5 rounded-sm uppercase font-bold text-sm tracking-wide hover:bg-slate hover:text-ink-black hover:cursor-pointer " href="">Contact</a>
+            <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/gallery">Gallery</a>
+            <a className="bg-ink-black text-center text-white px-[10px] lg:px-6 py-2.5 rounded-sm uppercase font-bold text-sm tracking-wide hover:bg-slate hover:text-ink-black hover:cursor-pointer " href="/contact">Contact</a>
         </nav>
       </div>
     </header>

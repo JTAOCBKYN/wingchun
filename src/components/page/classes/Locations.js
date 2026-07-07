@@ -19,20 +19,10 @@ const Locations = () => {
       address: "Youth Centre<br>North Avenue<br>Chelmsford<br>Essex<br>CM1 2AL"
     },
     {
-      title: "Colchester",
-      description:
-        "You can book a private lesson at any time just contact us and we will book you in. Daytime, Weekend and Evening bookings available.<br>Liability Insurance Cover.",
-      openingTimes: "Wednesday<br>7:00pm - 9:00pm",
-      contact: "Master Mark Clark",
-      phone: "07505 33 80 62", 
-      email: "frankroach1@aol.com",
-      address: "Hythe Community Centre<br>1 Ventura Drive<br>Colchester<br>Essex<br>CO1 2FG"
-    },
-    {
       title: "Clacton",
       description:
         "You can book a private lesson at any time just contact us and we will book you in. Daytime, Weekend and Evening bookings available.<br>Liability Insurance Cover.",
-      openingTimes: "Monday - 7:00pm - 8:30pm - Mixed lesson<br>Wednesday - 7:00pm - 8:30pm	- Mixed lesson<br>Thursday - 4:00pm - 5:00pm - Children lesson<br>Saturday - 3:00pm - 5:00pm - Mixed lesson<br>Sunday - 3:30pm - 5:00pm - Mixed lesson",
+      openingTimes: "Monday - 7:00pm - 8:30pm - Mixed lesson<br>Wednesday - 7:00pm - 8:30pm	- Mixed lesson<br>Saturday - 3:00pm - 5:00pm - Mixed lesson<br>Sunday - 3:30pm - 5:00pm - Mixed lesson",
       contact: "Master Frank Roach",
       phone: "07964 065 608", 
       email: "frankroach1@aol.com",

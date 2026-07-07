@@ -10,7 +10,7 @@ const Hero = () => {
             <p className="text-center lg:text-left text-white/80 text-[20px] font-light lg:max-w-[60%]">Where tradition meets practicality—develop strength, awareness, and confidence through Wing Chun.</p>
             <div className="buttons flex flex-col lg:flex-row gap-[20px] items-center">
                 <Button href="/classes" target="_self" title="View Classes" alignmentLeft colour="black"/>
-                <Button href="#" target="_self" title="Get in touch" alignmentLeft colour="transparent"/>
+                <Button href="/contact" target="_self" title="Get in touch" alignmentLeft colour="transparent"/>
             </div>
           </div>
         </div>

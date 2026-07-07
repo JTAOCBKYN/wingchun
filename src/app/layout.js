@@ -7,8 +7,8 @@ const isStaging = process.env.VERCEL_ENV === "preview";
 
 export const metadata = {
   title: {
-    default: "European Traiditional Wing Chun Kung Fu Association",
-    template: "%s | European Traiditional Wing Chun Kung Fu Association",
+    default: "Smart Wing Chun",
+    template: "%s | Smart Wing Chun",
   },
   description:
     "Train in Traditional Wing Chun with instructors who have studied both modified and traditional systems and tested their skills in real-life situations. Welcoming students aged 10+, regardless of fitness level or disability.",

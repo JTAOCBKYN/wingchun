@@ -11,11 +11,11 @@ const Footer = () => {
             src="/images/logo.png"
             width="200"
             height="202"
-            alt="European Traditional Wing Chun Kung Fu Association Logo"
+            alt="Smart Wing Chun Logo"
             className="max-w-full w-auto h-[60px]"
           />
-          <h3 className="font-heading text-ink-black text-[20px] text-center">European Traditional Wing&nbsp;Chun Kung Fu Association</h3>
-          <p className="text-[12px] text-ink-black text-center">Copyright © {new Date().getFullYear()} European Traditional Wing Chun Kung Fu Association. All rights reserved.</p>
+          <h3 className="font-heading text-ink-black text-[20px] text-center">Smart Wing Chun</h3>
+          <p className="text-[12px] text-ink-black text-center">Copyright © {new Date().getFullYear()} Smart Wing Chun. All rights reserved.</p>
         </div>
       </div>
     </footer>
