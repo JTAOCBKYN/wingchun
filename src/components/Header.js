@@ -36,6 +36,7 @@ const Header = () => {
               <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/classes">Classes</a>
               <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/history">History</a>
               <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/syllabus">Syllabus</a>
+              <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/articles">Articles</a>
               <a className="text-[16px] text-white/80 font-medium hover:text-primary hover:underline" href="/gallery">Gallery</a>
               <a className="bg-ink-black text-white px-[10px] lg:px-6 py-2.5 rounded-sm uppercase font-bold text-sm tracking-wide hover:bg-slate hover:text-ink-black hover:cursor-pointer " href="/contact">Contact</a>
             </nav>
@@ -64,6 +65,7 @@ const Header = () => {
           <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/classes">Classes</a>
             <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/history">History</a>
             <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/syllabus">Syllabus</a>
+            <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/articles">Articles</a>
             <a className="text-[20px] text-white/80 font-medium hover:text-primary hover:underline" href="/gallery">Gallery</a>
             <a className="bg-ink-black text-center text-white px-[10px] lg:px-6 py-2.5 rounded-sm uppercase font-bold text-sm tracking-wide hover:bg-slate hover:text-ink-black hover:cursor-pointer " href="/contact">Contact</a>
         </nav>
