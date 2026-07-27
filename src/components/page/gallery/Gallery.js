@@ -65,14 +65,12 @@ const Gallery = () => {
           >
             <video
               ref={(el) => (videoRefs.current[index] = el)}
+              poster="/videos/poster-1.jpg"
               preload="auto"
               playsInline
               muted
               className="w-full h-[400px] object-cover cursor-pointer"
               onClick={() => handleVideoClick(index)}
-              onLoadedData={(e) => {
-                e.currentTarget.currentTime = 0.01
-              }}
             >
               <source src={video.url} type="video/mp4" />
               Your browser does not support the video tag.
