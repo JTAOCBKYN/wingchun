@@ -65,7 +65,7 @@ const Gallery = () => {
           >
             <video
               ref={(el) => (videoRefs.current[index] = el)}
-              preload="metadata"
+              preload="auto"
               playsInline
               muted
               className="w-full h-[400px] object-cover cursor-pointer"
