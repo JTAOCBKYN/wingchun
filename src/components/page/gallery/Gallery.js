@@ -9,21 +9,27 @@ const Gallery = () => {
   const videosData = [
     {
       url: "/videos/video-1.mp4",
+      poster: "/videos/poster-1.jpg"
     },
     {
       url: "/videos/video-2.mp4",
+      poster: "/videos/poster-2.jpg"
     },
     {
       url: "/videos/video-3.mp4",
+      poster: "/videos/poster-3.jpg"
     },
     {
       url: "/videos/video-4.mp4",
+      poster: "/videos/poster-4.jpg"
     },
     {
       url: "/videos/video-5.mp4",
+      poster: "/videos/poster-5.jpg"
     },
     {
       url: "/videos/video-6.mp4",
+      poster: "/videos/poster-6.jpg"
     },
   ]
 
@@ -65,7 +71,7 @@ const Gallery = () => {
           >
             <video
               ref={(el) => (videoRefs.current[index] = el)}
-              poster="/videos/poster-1.jpg"
+              poster={video.poster}
               preload="auto"
               playsInline
               muted
