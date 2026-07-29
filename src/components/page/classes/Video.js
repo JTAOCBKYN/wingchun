@@ -48,6 +48,7 @@ const Video = () => {
         <div className="video relative mt-12">
           <video
             ref={videoRef}
+            poster="/videos/poster-3.jpg"
             preload="metadata"
             playsInline
             className="w-full h-[300px] lg:h-[700px] object-cover cursor-pointer"
