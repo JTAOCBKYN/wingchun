@@ -2,7 +2,7 @@ export default function sitemap() {
   const baseUrl = "https://www.smartwingchunuk.co.uk";
 
   const routes = [
-    "",
+    "/",
     "/classes",
     "/syllabus",
     "/history",
