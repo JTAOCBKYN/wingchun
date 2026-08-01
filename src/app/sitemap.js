@@ -16,6 +16,6 @@ export default function sitemap() {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: "monthly",
-    priority: route === "" ? 1 : 0.8,
+    priority: route === "/" ? 1 : 0.8,
   }));
 }
